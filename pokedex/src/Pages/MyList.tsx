@@ -1,7 +1,8 @@
 import React from "react"
+import Wrapper from "../Sections/Wrapper";
 
 function MyList() {
     return <div>MyList</div>
 }
 
-export default MyList;
+export default Wrapper(MyList);

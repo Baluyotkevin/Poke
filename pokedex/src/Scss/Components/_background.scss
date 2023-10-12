@@ -2,12 +2,12 @@
     z-index: -1;
     position: absolute;
     max-height: 100vh;
-    display: gri;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     img {
-        max-inline-size: 100%;
-        block-size: auto;
-        height: 20rem;
+      max-inline-size: 100%;
+      block-size: auto;
+      height: 20rem;
     }
-}
+  }

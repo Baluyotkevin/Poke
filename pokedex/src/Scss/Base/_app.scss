@@ -23,6 +23,16 @@
       border-top: none;
       border-bottom: none;
       height: 80vh;
+      overflow: hidden;
+      // padding-bottom: 4rem;
     }
   }
+
+::-webtkit-scrollbar {
+  background-color: transparent;
+  width: 0.4rem;
+  &-thumb {
+    background-color: rgba(219, 219, 219, 0.557);
+  }
+}
   

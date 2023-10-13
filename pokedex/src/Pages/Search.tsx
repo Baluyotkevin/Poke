@@ -11,6 +11,7 @@ import { setLoading } from "../app/Slices/AppSlice";
 import PokemonCardGrid from "../Components/PokemonCardGrid";
 
 function Search() {
+
   const handleChange = debounce((value: string) => getPokemon(value), 300);
   const isLoading = useAppSelector(({ app: { isLoading } }) => isLoading);
 
@@ -53,6 +54,8 @@ function Search() {
       dispatch(getPokemonData(randomPokemonsId));
     }
   };
+
+
 
   return (
     <>
